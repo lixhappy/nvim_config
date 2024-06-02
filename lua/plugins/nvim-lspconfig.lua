@@ -34,7 +34,7 @@ return {
             severity_sort = true,
 
             signs = {
-                text = function()
+                text = (function()
                     local icons = require("lazyvim.config").icons
                     return {
                         [vim.diagnostic.severity.ERROR] = icons.diagnostics.Error,
@@ -42,7 +42,7 @@ return {
                         [vim.diagnostic.severity.HINT]  = icons.diagnostics.Hint,
                         [vim.diagnostic.severity.INFO]  = icons.diagnostics.Info,
                     }
-                end,
+                end)(),
             },
         },
 
