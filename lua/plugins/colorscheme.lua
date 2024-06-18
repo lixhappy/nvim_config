@@ -1,11 +1,11 @@
 return {
     {
         "ellisonleao/gruvbox.nvim",
-        -- lazy = true,
+        lazy = true,
     },
     {
         "sainnhe/sonokai",
-        -- lazy = true,
+        lazy = true,
         opts = {
             sonokai_style = "espresso",
         },
@@ -15,18 +15,18 @@ return {
     },
     {
         "rebelot/kanagawa.nvim",
-        -- lazy = true,
+        lazy = true,
     },
     {
         "loctvl842/monokai-pro.nvim",
-        -- lazy = true,
+        lazy = true,
         opts = {
             filter = "spectrum" -- classic | octagon | pro | machine | ristretto | spectrum
         },
     },
     {
         "marko-cerovac/material.nvim",
-        -- lazy = true,
+        lazy = true,
         opts = {
             plugins = { -- Uncomment the plugins that you use to highlight them
                 -- Available plugins:
@@ -65,7 +65,7 @@ return {
     },
     {
         "ramojus/mellifluous.nvim",
-        -- lazy = true,
+        lazy = true,
         -- Available 'mellifluous', 'alduin', 'mountain', 'tender', 'kanagawa_dragon'
         opts = { color_set = "alduin" },
     },
