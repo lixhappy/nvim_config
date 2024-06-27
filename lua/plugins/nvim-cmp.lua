@@ -25,12 +25,12 @@ return {
         },
 
         -- for Codeium AI helper
-        {
-            "Exafunction/codeium.nvim",
-            cmd = "Codeium",
-            build = "Codeium Auth",
-            opts = {},
-        },
+        -- {
+        --     "Exafunction/codeium.nvim",
+        --     cmd = "Codeium",
+        --     build = "Codeium Auth",
+        --     opts = {},
+        -- },
     },
 
     -- Not all LSP servers add brackets when completing a function.
@@ -79,7 +79,7 @@ return {
                 { name = "path" },
                 { name = "luasnip" },
                 { name = "crates" },
-                { name = "codeium" },
+                -- { name = "codeium" },
             }, {
                 { name = "buffer" },
             }),
