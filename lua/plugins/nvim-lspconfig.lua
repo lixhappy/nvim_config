@@ -43,6 +43,7 @@ return {
                         [vim.diagnostic.severity.INFO]  = icons.diagnostics.Info,
                     }
                 end)(),
+
             },
         },
 

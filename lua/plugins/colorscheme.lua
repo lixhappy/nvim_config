@@ -72,6 +72,7 @@ return {
 
     {
         "LazyVim/LazyVim",
+        version = "12.0.0",
         opts = {
             colorscheme = "gruvbox-material",
         },

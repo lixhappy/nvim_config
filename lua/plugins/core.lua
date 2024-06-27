@@ -1,6 +1,9 @@
 return {
     "folke/lazy.nvim",
-    "LazyVim/LazyVim",
+    {
+        "LazyVim/LazyVim",
+        version = "12.0.0",
+    },
 
     -- { "folke/neodev.nvim", opts = {} },
     { "folke/neoconf.nvim",    cmd = "Neoconf", config = false, dependencies = { "nvim-lspconfig" } },
