@@ -18,6 +18,7 @@ return {
             "luals",
             -- C++
             "clangd",
+            "clang-format",
             -- Cmake
             "neocmake",
             "cmakelang",
